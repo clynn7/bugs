@@ -2,7 +2,7 @@ body {
   background-color: #DF5255;
 }
 
-.container {
+.my-div {
   max-width: 500px;
   margin: 0 auto;
   padding: 10px;
@@ -10,6 +10,6 @@ body {
   background-color: #FEE76F;
 }
 
-svg {
+svg2 {
   width: 200px;
 }
