@@ -1,0 +1,29 @@
+<html>
+<head>
+  <title>SVG Test</title>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="js/vivus.min.js"></script>
+
+</head>
+<body>
+  <div class="container">
+    <svg id="letters" width="100%" height="100%" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+      <g transform="matrix(17.2814,0,0,21.8821,-1.92048,872.76)">
+          <path id="tletter" d="M27.45,-34.65L27.45,-30.45L16.55,-30.45L16.55,0L11.7,0L11.7,-30.45L0.8,-30.45L0.8,-34.65L27.45,-34.65Z" style="fill:none;stroke-width:0.63px;stroke:black;"/>
+      </g>
+      <g transform="matrix(16.9328,0,0,21.5021,373.723,877.905)">
+          <path id="hletter" d="M1.733,-32.446L1.733,-35.547L14.502,-35.547L14.502,-32.446L10.522,-31.763L10.522,-19.482L27.759,-19.482L27.759,-31.763L23.779,-32.446L23.779,-35.547L36.548,-35.547L36.548,-32.446L32.568,-31.763L32.568,-3.76L36.548,-3.076L36.548,0L23.779,0L23.779,-3.076L27.759,-3.76L27.759,-15.698L10.522,-15.698L10.522,-3.76L14.502,-3.076L14.502,0L1.733,0L1.733,-3.076L5.713,-3.76L5.713,-31.763L1.733,-32.446Z" style="fill:none;stroke-width:0.65px;stroke:black;"/>
+      </g>
+  </svg>
+  </div>
+  <script>
+var letter = new Vivus('letters', {duration: 200}, function() {
+    $('#tletter').attr('style', 'fill:black');
+    $('#hletter').attr('style', 'fill:black');
+
+letter.reset();
+letter.play();
+  });
+</script>
+</body>
+</html>
