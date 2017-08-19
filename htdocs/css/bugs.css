@@ -1,0 +1,15 @@
+body {
+  background-color: #DF5255;
+}
+
+.my-div {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+  background-color: #FEE76F;
+}
+
+svg2 {
+  width: 200px;
+}
