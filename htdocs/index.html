@@ -90,12 +90,13 @@
 
 </body>
 <script>
-var wing = new Vivus('svg2', {duration: 200, }, function() {
-  //$('#path34').attr('style', 'fill:black');
-  //$('#path36').attr('style', 'fill:black');
+var wing = new Vivus('svg2', {duration: 400, animTimingFunction: Vivus.EASE}, function() {
+
+  // Maybe do stuff to the svg paths like file the areas.
+  // $('#path60').attr('style', 'fill:black');
 
 wing.reset();
-wing.play();
-});
+wing.play(); });
+
 </script>
 </html>
