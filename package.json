@@ -5,7 +5,8 @@
   "main": "bugs.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "webpack -p",
+    "start": "webpack-dev-server --inline --watch-content-base"
   },
   "author": "",
   "license": "ISC",

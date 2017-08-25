@@ -2,9 +2,8 @@ import $ from 'jquery';
 import TweenMax from 'gsap';
 import SVGInjector from 'svg-injector';
 
-// A $( document ).ready() block.
 $(document).ready(function() {
-  console.log("Document ready!");
+  console.log("Document ready to go!");
 
   // Elements to inject
   var mySVGsToInject = document.querySelectorAll('img.inject-me');
@@ -62,7 +61,6 @@ $("#walk").click(function() {
     x: -20,
     y: 20,
   }, "left");
-
 });
 
 
