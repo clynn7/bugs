@@ -6,8 +6,6 @@ $(document).ready(function() {
   console.log("Document ready to go!");
 
 
-
-
   // Elements to inject
   var mySVGsToInject = document.querySelectorAll('img.inject-me');
 
@@ -42,6 +40,6 @@ $("#swim").click(function() {
 
       tl.play();
 
-      
+
 
 });
