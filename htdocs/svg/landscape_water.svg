@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="water" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 792 612" style="enable-background:new 0 0 792 612;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:url(#SVGID_2_);}
+</style>
+<g>
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="396" y1="612" x2="396" y2="290.7656">
+		<stop  offset="0" style="stop-color:#6BAADC"/>
+		<stop  offset="0.2082" style="stop-color:#5E95CA"/>
+		<stop  offset="0.6526" style="stop-color:#3A6AA7"/>
+		<stop  offset="1" style="stop-color:#184B90"/>
+	</linearGradient>
+	<rect y="290.8" class="st0" width="792" height="321.2"/>
+	<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="396" y1="290.7656" x2="396" y2="0">
+		<stop  offset="0" style="stop-color:#FFE29E"/>
+		<stop  offset="0.2298" style="stop-color:#FED486"/>
+		<stop  offset="0.7207" style="stop-color:#FAB148"/>
+		<stop  offset="1" style="stop-color:#F79D21"/>
+	</linearGradient>
+	<rect class="st1" width="792" height="290.8"/>
+</g>
+</svg>

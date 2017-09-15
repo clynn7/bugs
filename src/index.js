@@ -45,3 +45,15 @@ $("#swim").click(function() {
 
 
 });
+
+$("#float").click(function() {
+  var tl = new TweenLite();
+  // tl.staggerTo("#clouds", 1, {rotation:360, x:100}, 0.5);
+  // tl.fromTo("#clouds", 1, {left:0}, {left:100});
+  tl.to("#clouds", 2, {width:"200px", height:"150px"});
+
+      
+
+
+
+});
